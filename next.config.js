@@ -44,6 +44,7 @@ module.exports = {
         filename: 'static/chunks/remoteEntry.js',
         exposes: {
           './Button': './src/components/Button',
+          './Avatar': './src/components/Avatar',
         },
         shared: {
           react: { singleton: true, requiredVersion: false },
